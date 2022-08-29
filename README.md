@@ -4,5 +4,5 @@
 
 ## Data structures
 
-- [Linked List](https://www.github.com/WonhyeokJung/javascript-algorithm/tree/master/src/dataStructures/linkedList)
+- [Linked List](https://www.github.com/WonhyeokJung/javascript-algorithm/tree/master/src/dataStructure/linkedList)
 - 
