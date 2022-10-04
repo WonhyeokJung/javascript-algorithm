@@ -15,7 +15,7 @@ class TreeNode {
 }
 
 // Binary Tree Traversal - Preorder
- var hasPathSum = function(root: TreeNode | null, targetSum: number): boolean {
+var hasPathSum = function(root: TreeNode | null, targetSum: number): boolean {
   const preorder = function(node: TreeNode | null, sum: number): boolean {
     if (!node) return false;
     sum += node.val;
@@ -28,7 +28,17 @@ class TreeNode {
   return preorder(root, 0);
 };
 
-const treeNodeMaker:Function = function(arr:number[], i:number): TreeNode|null {
+// recursion
+function hasPathSum2(root: TreeNode | null, targetSum: number): boolean {
+  if (!root) return false;
+  // check if leaf && targetSum - root.val === 0
+  if (root.left === root.right && root.val === targetSum) return true;
+  return hasPathSum2(root.left, targetSum - root.val) || hasPathSum2(root.right, targetSum - root.val);
+};
+
+
+// Test case
+const treeNodeMaker:Function = function(arr:Array<number>, i:number): TreeNode|null {
   if (!arr.length) return null;
   let root:TreeNode = new TreeNode(arr[i]);
   if (i < arr.length) {
@@ -38,8 +48,10 @@ const treeNodeMaker:Function = function(arr:number[], i:number): TreeNode|null {
   return root;
 }
 
-/** TestCase */
+/** Input */
 let nums: (number|null)[] = [5,4,8,11,null,13,4,7,2,null,null,null,1];
 let targetSum: number = 22;
 
-console.log(hasPathSum(treeNodeMaker(nums, 0), targetSum));
+console.log('Input: [5,4,8,11,null,13,4,7,2,null,null,null,1], 22')
+console.log('DFS: ', hasPathSum(treeNodeMaker(nums, 0), targetSum));
+console.log('Recursion: ', hasPathSum2(treeNodeMaker(nums, 0), targetSum));
