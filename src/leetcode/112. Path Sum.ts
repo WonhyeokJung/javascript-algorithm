@@ -1,0 +1,45 @@
+// Given the root of a binary tree and an integer targetSum, 
+// return true if the tree has a root-to-leaf path such that adding up all the values along the path equals targetSum.
+// A leaf is a node with no children.
+
+
+class TreeNode {
+  val: number
+  left: TreeNode | null
+  right: TreeNode | null
+  constructor(val?: number, left?: TreeNode | null, right?: TreeNode | null) {
+    this.val = (val===undefined ? 0 : val)
+    this.left = (left===undefined ? null : left)
+    this.right = (right===undefined ? null : right)
+  }
+}
+
+// Binary Tree Traversal - Preorder
+ var hasPathSum = function(root: TreeNode | null, targetSum: number): boolean {
+  const preorder = function(node: TreeNode | null, sum: number): boolean {
+    if (!node) return false;
+    sum += node.val;
+    if (!(node.left || node.right)) {
+      return sum === targetSum;
+    }
+    return preorder(node.left, sum) || preorder(node.right, sum);
+  }
+  
+  return preorder(root, 0);
+};
+
+const treeNodeMaker:Function = function(arr:number[], i:number): TreeNode|null {
+  if (!arr.length) return null;
+  let root:TreeNode = new TreeNode(arr[i]);
+  if (i < arr.length) {
+    root.left = treeNodeMaker(arr, 2 * i + 1);
+    root.right = treeNodeMaker(arr, 2 * i + 2);  
+  }
+  return root;
+}
+
+/** TestCase */
+let nums: (number|null)[] = [5,4,8,11,null,13,4,7,2,null,null,null,1];
+let targetSum: number = 22;
+
+console.log(hasPathSum(treeNodeMaker(nums, 0), targetSum));
