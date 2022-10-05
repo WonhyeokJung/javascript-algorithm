@@ -2,19 +2,8 @@
 // return true if the tree has a root-to-leaf path such that adding up all the values along the path equals targetSum.
 // A leaf is a node with no children.
 
-
-class TreeNode {
-  val: number
-  left: TreeNode | null
-  right: TreeNode | null
-  constructor(val?: number, left?: TreeNode | null, right?: TreeNode | null) {
-    this.val = (val===undefined ? 0 : val)
-    this.left = (left===undefined ? null : left)
-    this.right = (right===undefined ? null : right)
-  }
-}
-
 // Binary Tree Traversal - Preorder
+import { TreeNode } from './000.utils';
 var hasPathSum = function(root: TreeNode | null, targetSum: number): boolean {
   const preorder = function(node: TreeNode | null, sum: number): boolean {
     if (!node) return false;
@@ -40,10 +29,11 @@ function hasPathSum2(root: TreeNode | null, targetSum: number): boolean {
 // Test case
 const treeNodeMaker:Function = function(arr:Array<number>, i:number): TreeNode|null {
   if (!arr.length) return null;
-  let root:TreeNode = new TreeNode(arr[i]);
+  let root:TreeNode | null = null;
   if (i < arr.length) {
-    root.left = treeNodeMaker(arr, 2 * i + 1);
-    root.right = treeNodeMaker(arr, 2 * i + 2);  
+    root = new TreeNode(arr[i]);
+    root.left = treeNodeMaker(arr, 2*i + 1);
+    root.right = treeNodeMaker(arr, 2*i + 2);
   }
   return root;
 }
