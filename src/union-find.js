@@ -22,7 +22,7 @@ class UnionFind {
     y = this.find(y);
     
     // 우변 밸류에 좌변키(x) 할당
-    this.map.set(this.map.get(y), x)
+    this.map.set(this.map.get(y), x);
   }
 }
 
