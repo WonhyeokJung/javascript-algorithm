@@ -2,7 +2,8 @@
 
 ## List
 
-| No.                                                          | Related Algorithm |
-| ------------------------------------------------------------ | ----------------- |
-| [76.Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | Two Pointer       |
+| No.                                                          | Related Algorithm / Topics |
+| ------------------------------------------------------------ | -------------------------- |
+| [76.Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | Two Pointer                |
+| [523. Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/) | Math                       |
 
