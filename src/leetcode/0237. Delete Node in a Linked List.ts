@@ -1,4 +1,4 @@
-import { ListNode } from './000.utils';
+import { ListNode } from './0000.utils';
 
 /**
   Do not return anything, modify it in-place instead.

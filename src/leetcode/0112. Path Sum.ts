@@ -3,7 +3,7 @@
 // A leaf is a node with no children.
 
 // Binary Tree Traversal - Preorder
-import { TreeNode } from './000.utils';
+import { TreeNode } from './0000.utils';
 var hasPathSum = function(root: TreeNode | null, targetSum: number): boolean {
   const preorder = function(node: TreeNode | null, sum: number): boolean {
     if (!node) return false;
