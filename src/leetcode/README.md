@@ -7,6 +7,7 @@
 | [76.Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | Two Pointer                 |
 | [523. Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/) | [Math](#Math)               |
 | [835. Image Overlap](https://leetcode.com/submissions/detail/831113344/) | [Brute Force](#Brute-Force) |
+| [1293. Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/) | [BFS](#BFS)                 |
 
 
 
@@ -30,3 +31,18 @@
 
 ### Brute Force
 
+| No.                                                          | etc. |
+| ------------------------------------------------------------ | ---- |
+| [835. Image Overlap](https://leetcode.com/submissions/detail/831113344/) |      |
+
+
+
+### BFS
+
+| No.                                                          | etc. |
+| ------------------------------------------------------------ | ---- |
+| [1293. Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/) |      |
+
+
+
+### DFS
