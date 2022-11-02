@@ -5,6 +5,7 @@
 | No.                                                          | Related Algorithm / Topics  |
 | ------------------------------------------------------------ | --------------------------- |
 | [76.Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | Two Pointer                 |
+| [433. Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/) | [BFS](#BFS)                 |
 | [523. Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/) | [Math](#Math)               |
 | [835. Image Overlap](https://leetcode.com/submissions/detail/831113344/) | [Brute Force](#Brute-Force) |
 | [1293. Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/) | [BFS](#BFS)                 |
@@ -42,6 +43,7 @@
 
 | No.                                                          | etc. |
 | ------------------------------------------------------------ | ---- |
+| [433. Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/) |      |
 | [1293. Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/) |      |
 
 
