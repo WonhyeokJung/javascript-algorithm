@@ -10,6 +10,7 @@
 | [835. Image Overlap](https://leetcode.com/submissions/detail/831113344/) | [Brute Force](#Brute-Force) |
 | [1293. Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/) | [BFS](#BFS)                 |
 | [1706. Where Will the Ball Fall](https://leetcode.com/problems/where-will-the-ball-fall/) | [DFS](#DFS)                 |
+| [2131. Longest Palindrome by Concatenating Two Letter Words](2131. Longest Palindrome by Concatenating Two Letter Words) |                             |
 
 
 
