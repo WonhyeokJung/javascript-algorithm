@@ -5,6 +5,7 @@
 | No.                                                          | Related Algorithm / Topics  |
 | ------------------------------------------------------------ | --------------------------- |
 | [76.Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | [Two Pointer](#Two-Pointer) |
+| [345. Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/) | Array Methods               |
 | [433. Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/) | [BFS](#BFS)                 |
 | [523. Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/) | [Math](#Math)               |
 | [835. Image Overlap](https://leetcode.com/submissions/detail/831113344/) | [Brute Force](#Brute-Force) |
