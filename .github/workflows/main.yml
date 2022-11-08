@@ -25,6 +25,7 @@ jobs:
           node tsBuild/update-readme.js
       - name: commit
         run: |
+          git add .
           git config --global user.name 'WonhyeokJung'
           git config --global user.email 'wonhyeok.contact@gmail.com'
           git commit -m '[docs] auto-update README.md'
