@@ -1,0 +1,32 @@
+name: Update Readme
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - name: Use Node.js 16.x
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16.x
+      - name: npm install
+        run: |
+          npm install --legacy-peer-deps
+      - name: Compile .ts file
+        run: |
+          npm tsc
+      - name: Update README.md
+        run: |
+          node update-readme.js
+      - name: commit
+        run: |
+          git config --global.name 'WonhyeokJung'
+          git config --global.email 'wonhyeok.contact@gmail.com'
+          git commit -m '[docs] auto-update README.md'
+      - name: push
+        run: |
+          git push
+          
