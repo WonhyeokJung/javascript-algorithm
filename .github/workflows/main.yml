@@ -14,9 +14,6 @@ jobs:
           node-version: 16.x
           cache: npm
       - run: npm ci
-      - name: npm install
-        run: |
-          npm install --legacy-peer-deps
       - name: Compile .ts file
         run: |
           npx tsc

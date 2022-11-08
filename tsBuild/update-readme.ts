@@ -8,7 +8,7 @@ fs.readdirSync('./src/leetcode').forEach(file => {
 
 let text = `![](https://img.shields.io/badge/JavaScript-gray?&logo=JavaScript)![](https://img.shields.io/badge/TypeScript-lightgray?&logo=TypeScript)
 
-## List
+## LeetCode Problems
 \ No. | Related Algorithm / Topics |
 ------------- | ------------------------------- \
 \n`
