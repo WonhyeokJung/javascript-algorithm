@@ -64,5 +64,5 @@
 
 | No.                                                          | etc. |
 | ------------------------------------------------------------ | ---- |
-| [1544. Make The String Great](./1544. Make The String Great) |      |
+| [1544. Make The String Great](./1544. Make The String Great.ts) |      |
 
