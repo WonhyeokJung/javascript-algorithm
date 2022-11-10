@@ -19,6 +19,7 @@
 |[0692. Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words)||
 |[0835. Image Overlap](https://leetcode.com/problems/image-overlap)||
 |[0901. Online Stock Span](https://leetcode.com/problems/online-stock-span)||
+|[1047. Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string)||
 |[1239. Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters)||
 |[1293. Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination)||
 |[1323. Maximum 69 Number](https://leetcode.com/problems/maximum-69-number)||
