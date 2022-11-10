@@ -12,15 +12,15 @@ fs_1.default.readdirSync('./src/leetcode').forEach((file) => {
 let text = `![](https://img.shields.io/badge/JavaScript-gray?&logo=JavaScript)![](https://img.shields.io/badge/TypeScript-lightgray?&logo=TypeScript)
 
 ## LeetCode Problems
-\ No. | Solution |
-------------- | ------------------------------- \
+\ No. | Problem | Solution |
+| ----- | ------------- | ------------------------------- \
 \n`;
 for (let file of solvedQuestions) {
     if (file.slice(0, 4) === '0000' || file === 'README.md') {
         continue;
     }
     let query = file.slice(6, -3).toLowerCase().replaceAll(' ', '-');
-    text += `|[${file.slice(0, -3)}](https://leetcode.com/problems/${query})|[click](./src/leetcode/${encodeURI(file)})|\n`;
+    text += `|${file.slice(0, 4)}|[${file.slice(6, -3)}](https://leetcode.com/problems/${query})|[click](./src/leetcode/${encodeURI(file)})|\n`;
 }
 fs_1.default.writeFile('./README.md', text, (err) => {
     if (err)
