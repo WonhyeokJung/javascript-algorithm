@@ -20,7 +20,7 @@ for (let file of solvedQuestions) {
         continue;
     }
     let query = file.slice(6, -3).toLowerCase().replaceAll(' ', '-');
-    text += `|[${file.slice(0, -3)}](https://leetcode.com/problems/${query})|[click](src/leetcode/${file})|\n`;
+    text += `|[${file.slice(0, -3)}](https://leetcode.com/problems/${query})|[click](./src/leetcode/${encodeURI(file)})|\n`;
 }
 fs_1.default.writeFile('./README.md', text, (err) => {
     if (err)
