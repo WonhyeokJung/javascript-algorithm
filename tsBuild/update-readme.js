@@ -6,13 +6,13 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const fs_1 = __importDefault(require("fs"));
 // fs.writeFileSync('./README.md',)
 let solvedQuestions = [];
-fs_1.default.readdirSync('./src/leetcode').forEach(file => {
+fs_1.default.readdirSync('./src/leetcode').forEach((file) => {
     solvedQuestions.push(file);
 });
 let text = `![](https://img.shields.io/badge/JavaScript-gray?&logo=JavaScript)![](https://img.shields.io/badge/TypeScript-lightgray?&logo=TypeScript)
 
 ## LeetCode Problems
-\ No. | Related Algorithm / Topics |
+\ No. | Solution |
 ------------- | ------------------------------- \
 \n`;
 for (let file of solvedQuestions) {
@@ -20,7 +20,7 @@ for (let file of solvedQuestions) {
         continue;
     }
     let query = file.slice(6, -3).toLowerCase().replaceAll(' ', '-');
-    text += `|[${file.slice(0, -3)}](https://leetcode.com/problems/${query})||\n`;
+    text += `|[${file.slice(0, -3)}](https://leetcode.com/problems/${query})|[click](./src/leetcode/${file})|\n`;
 }
 fs_1.default.writeFile('./README.md', text, (err) => {
     if (err)
