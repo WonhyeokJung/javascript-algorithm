@@ -2,14 +2,14 @@ import fs from 'fs';
 
 // fs.writeFileSync('./README.md',)
 let solvedQuestions:Array<string> = [];
-fs.readdirSync('./src/leetcode').forEach(file => {
+fs.readdirSync('./src/leetcode').forEach((file:string) => {
   solvedQuestions.push(file);
 });
 
 let text = `![](https://img.shields.io/badge/JavaScript-gray?&logo=JavaScript)![](https://img.shields.io/badge/TypeScript-lightgray?&logo=TypeScript)
 
 ## LeetCode Problems
-\ No. | Related Algorithm / Topics |
+\ No. | Solution |
 ------------- | ------------------------------- \
 \n`
 for (let file of solvedQuestions) {
@@ -17,7 +17,7 @@ for (let file of solvedQuestions) {
     continue;
   }
   let query:string = file.slice(6, -3).toLowerCase().replaceAll(' ', '-');
-  text += `|[${file.slice(0, -3)}](https://leetcode.com/problems/${query})||\n`;
+  text += `|[${file.slice(0, -3)}](https://leetcode.com/problems/${query})|[click](./src/leetcode/${file})|\n`;
 }
 
 fs.writeFile('./README.md', text, (err) => {
