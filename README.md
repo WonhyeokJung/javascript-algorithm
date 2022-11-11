@@ -5,6 +5,7 @@
 | ----- | ------------- | ------------------------------- 
 |0012|[Integer to Roman](https://leetcode.com/problems/integer-to-roman)|[:arrow_upper_right:](./src/leetcode/0012.%20Integer%20to%20Roman.ts)|
 |0019|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list)|[:arrow_upper_right:](./src/leetcode/0019.%20Remove%20Nth%20Node%20From%20End%20of%20List.js)|
+|0026|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array)|[:arrow_upper_right:](./src/leetcode/0026.%20Remove%20Duplicates%20from%20Sorted%20Array.ts)|
 |0038|[Count and Say](https://leetcode.com/problems/count-and-say)|[:arrow_upper_right:](./src/leetcode/0038.%20Count%20and%20Say.ts)|
 |0049|[Group Anagrams](https://leetcode.com/problems/group-anagrams)|[:arrow_upper_right:](./src/leetcode/0049.%20Group%20Anagrams.ts)|
 |0076|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring)|[:arrow_upper_right:](./src/leetcode/0076.%20Minimum%20Window%20Substring.ts)|
