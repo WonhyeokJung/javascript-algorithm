@@ -10,7 +10,7 @@
  */
 
 // Tree Traversal : O(n)
-import { TreeNode } from './0000.utils';
+import { TreeNode } from './0000. utils';
 function addOneRow(root: TreeNode | null, val: number, depth: number): TreeNode | null {
   // O(n)
   if (depth === 1) {
