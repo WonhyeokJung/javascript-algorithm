@@ -11,6 +11,7 @@
 |0076|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring)|[:arrow_upper_right:](./src/leetcode/0076.%20Minimum%20Window%20Substring.ts)|
 |0112|[Path Sum](https://leetcode.com/problems/path-sum)|[:arrow_upper_right:](./src/leetcode/0112.%20Path%20Sum.ts)|
 |0151|[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string)|[:arrow_upper_right:](./src/leetcode/0151.%20Reverse%20Words%20in%20a%20String.ts)|
+|0223|[Rectangle Area](https://leetcode.com/problems/rectangle-area)|[:arrow_upper_right:](./src/leetcode/0223.%20Rectangle%20Area.ts)|
 |0237|[Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list)|[:arrow_upper_right:](./src/leetcode/0237.%20Delete%20Node%20in%20a%20Linked%20List.ts)|
 |0334|[Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence)|[:arrow_upper_right:](./src/leetcode/0334.%20Increasing%20Triplet%20Subsequence.ts)|
 |0345|[Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string)|[:arrow_upper_right:](./src/leetcode/0345.%20Reverse%20Vowels%20of%20a%20String.ts)|
