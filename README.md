@@ -33,4 +33,5 @@
 |1662|[Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent)|[:arrow_upper_right:](./src/leetcode/1662.%20Check%20If%20Two%20String%20Arrays%20are%20Equivalent.ts)|
 |1706|[Where Will the Ball Fall](https://leetcode.com/problems/where-will-the-ball-fall)|[:arrow_upper_right:](./src/leetcode/1706.%20Where%20Will%20the%20Ball%20Fall.ts)|
 |1832|[Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram)|[:arrow_upper_right:](./src/leetcode/1832.%20Check%20if%20the%20Sentence%20Is%20Pangram.ts)|
+|1926|[Nearest Exit from Entrance in Maze](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze)|[:arrow_upper_right:](./src/leetcode/1926.%20Nearest%20Exit%20from%20Entrance%20in%20Maze.ts)|
 |2131|[Longest Palindrome by Concatenating Two Letter Words](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words)|[:arrow_upper_right:](./src/leetcode/2131.%20Longest%20Palindrome%20by%20Concatenating%20Two%20Letter%20Words.ts)|
