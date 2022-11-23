@@ -1,3 +1,5 @@
+// DFS
+
 function isValidSudoku(board:Array<Array<number|string>>):boolean {
   let blanks:Array<Array<number>> = [];
   for (let i = 0; i < 9; i++) {
