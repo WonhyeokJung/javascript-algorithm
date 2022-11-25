@@ -10,6 +10,7 @@
 |0038|[Count and Say](https://leetcode.com/problems/count-and-say)|[:arrow_upper_right:](./src/leetcode/0038.%20Count%20and%20Say.ts)|
 |0049|[Group Anagrams](https://leetcode.com/problems/group-anagrams)|[:arrow_upper_right:](./src/leetcode/0049.%20Group%20Anagrams.ts)|
 |0076|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring)|[:arrow_upper_right:](./src/leetcode/0076.%20Minimum%20Window%20Substring.ts)|
+|0079|[Word Search](https://leetcode.com/problems/word-search)|[:arrow_upper_right:](./src/leetcode/0079.%20Word%20Search.ts)|
 |0112|[Path Sum](https://leetcode.com/problems/path-sum)|[:arrow_upper_right:](./src/leetcode/0112.%20Path%20Sum.ts)|
 |0151|[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string)|[:arrow_upper_right:](./src/leetcode/0151.%20Reverse%20Words%20in%20a%20String.ts)|
 |0222|[Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes)|[:arrow_upper_right:](./src/leetcode/0222.%20Count%20Complete%20Tree%20Nodes.ts)|
