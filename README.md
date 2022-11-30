@@ -27,6 +27,7 @@
 |0901|[Online Stock Span](https://leetcode.com/problems/online-stock-span)|[:arrow_upper_right:](./src/leetcode/0901.%20Online%20Stock%20Span.ts)|
 |0947|[Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column)|[:arrow_upper_right:](./src/leetcode/0947.%20Most%20Stones%20Removed%20with%20Same%20Row%20or%20Column.ts)|
 |1047|[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string)|[:arrow_upper_right:](./src/leetcode/1047.%20Remove%20All%20Adjacent%20Duplicates%20In%20String.ts)|
+|1207|[Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences)|[:arrow_upper_right:](./src/leetcode/1207.%20Unique%20Number%20of%20Occurrences.ts)|
 |1209|[Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii)|[:arrow_upper_right:](./src/leetcode/1209.%20Remove%20All%20Adjacent%20Duplicates%20in%20String%20II.ts)|
 |1239|[Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters)|[:arrow_upper_right:](./src/leetcode/1239.%20Maximum%20Length%20of%20a%20Concatenated%20String%20with%20Unique%20Characters.ts)|
 |1293|[Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination)|[:arrow_upper_right:](./src/leetcode/1293.%20Shortest%20Path%20in%20a%20Grid%20with%20Obstacles%20Elimination.ts)|
