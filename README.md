@@ -9,6 +9,7 @@
 |0036|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku)|[:arrow_upper_right:](./src/leetcode/0036.%20Valid%20Sudoku.ts)|
 |0038|[Count and Say](https://leetcode.com/problems/count-and-say)|[:arrow_upper_right:](./src/leetcode/0038.%20Count%20and%20Say.ts)|
 |0049|[Group Anagrams](https://leetcode.com/problems/group-anagrams)|[:arrow_upper_right:](./src/leetcode/0049.%20Group%20Anagrams.ts)|
+|0070|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs)|[:arrow_upper_right:](./src/leetcode/0070.%20Climbing%20Stairs.ts)|
 |0076|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring)|[:arrow_upper_right:](./src/leetcode/0076.%20Minimum%20Window%20Substring.ts)|
 |0079|[Word Search](https://leetcode.com/problems/word-search)|[:arrow_upper_right:](./src/leetcode/0079.%20Word%20Search.ts)|
 |0112|[Path Sum](https://leetcode.com/problems/path-sum)|[:arrow_upper_right:](./src/leetcode/0112.%20Path%20Sum.ts)|
